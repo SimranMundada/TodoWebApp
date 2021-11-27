@@ -1,0 +1,170 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.outer-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 110px;
+    width: 80%;
+  
+}
+
+.inner-container
+{
+    width: 340px;
+    height: 300px;
+    border: 2px solid rgba(253, 66, 66, 0.76);
+    text-align: center;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-top: -60px; 
+    box-shadow: 6px 6px 10px lightgray;
+    margin-left: -50px;
+}
+
+.main-container{
+    
+    margin: 12vh;
+    align-content: center;
+    text-align: center;
+  
+    
+}
+
+.top-heading
+{
+  font-size: 23px;
+  color: rgba(253, 66, 66, 0.76);
+  font-weight: bold;
+}
+
+.mid-heading{
+    color: red;
+    font-weight: bolder;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.bottom-content{
+    font-weight: bold;
+    color: #4A403A;
+    font-size: 18px;
+}
+
+.square {
+    margin-left: 98px;
+    height:15px;
+    width: 15px;
+    border: 1px solid black;
+    margin-bottom: -38px;
+    border-radius: 2px;
+    
+  }
+
+  hr{
+    width: 70%;
+    margin-left:30% ;
+    background-color: #AAA492;
+    margin-top: -10px;
+   
+    
+}
+
+.img-format
+{
+    position: relative;
+    bottom: -90px;
+    left:140px;
+}
+
+.title-format{
+    font-size: 30px;
+    color: #AAA492;  
+    
+}
+
+.back-img{
+    display: inline;
+  margin-right: 15px;
+  margin-left: -130px;
+  margin-bottom: -30px;
+  
+}
+
+h1 {
+    width: 50%; 
+    text-align: center; 
+    border-bottom: 1px solid #AAA492; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-size: 45px;
+    margin-left: 330px;
+    padding-top: 50px;
+    
+
+ } 
+ 
+ h1 span { 
+     background:#fff; 
+     padding:0 20px; 
+ }
+
+ h5{
+    display: inline;
+    font-size: 15px;
+ 
+   color: #4A403A;
+   padding: 10px;
+}
+
+.not-show{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+    position: absolute;
+    left: 35%;
+    top:32%;
+    height: 28vh;
+    width: 25%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px gray ;
+    background-color: white;
+}
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+}
+.pop-upbar{
+    margin-top: 18px;
+    border-radius: 4px;
+    width:80%;
+    height:25%;
+    border: 1.5px solid red;
+    box-shadow: 1px 3px gray;
+}
+
+.pop-upbutton{
+    width: 25%;
+    height: 20%;
+    margin-top: 18px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border:none;
+    position: absolute;
+    left: 140px;
+    font-size: 20px;
+}
