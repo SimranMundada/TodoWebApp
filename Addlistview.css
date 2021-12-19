@@ -2,6 +2,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
+.next{
+    margin-left: 650px;
+}
 .outer-container{
     display: flex;
     flex-wrap: wrap;

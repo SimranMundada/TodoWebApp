@@ -3,7 +3,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
-
+.next{
+    margin-left: 700px;
+}
 
 .outer-container
 {

@@ -27,7 +27,7 @@ body{
 
 .heading
 {
-    margin-left: 80px;
+    margin-left: 95px;
     display: inline;
     font-size: 50px;
     font-weight: lighter;
@@ -87,17 +87,21 @@ hr{
     margin-left: 10px;
     height:15px;
     width: 15px;
-    border: 1px solid black;
+    border: 1px solid rgb(161, 154, 154);
     margin-bottom: -38px;
     border-radius: 2px;
-    
-  }
+}
 
 h5{
     display: relative;
     font-size: 15px;
    margin-left: 700px;
    color: #4A403A;
+}
+.next{
+    position: relative;
+    padding-top: 80px;
+    left: 550px;
 }
 
 
